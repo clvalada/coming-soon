@@ -43,7 +43,7 @@ h2 {
 #content {
   z-index: 1;
   color: #1d3461;
-  background-color: #d8ebfb;
+  background-color: rgba(216, 235, 251, 0.9);
   border: 1px solid #1d3461;
   border-radius: 10px;
   padding: 20px 60px;
