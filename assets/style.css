@@ -53,9 +53,11 @@ h2 {
 #submit {
   color:#1d3461;
   background-color: #deb52f;
+  font-size: 15px;
+  font-weight: bold;
   border: 0;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 7px 13px;
   margin: 1%;
 }
 
@@ -83,10 +85,35 @@ h2 {
 
 input[type="email"] {
   margin-right: 10px;
+  font-size: 15px;
+  font-style: italic;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
 }
 
 @media (max-width: 800px) {
-  #content {
-    width: calc(90% - 10px);
+  
+  h1 {
+    font-size: 45px;
   }
+  
+  h2 {
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+
+  #content {
+    padding: 5px 20px;
+  }
+
+  #mailchimp-form label {
+    font-size: 15px;
+  }
+
+  #submit {
+    font-size: 15px;
+    font-weight: normal;
+  }
+
 }
